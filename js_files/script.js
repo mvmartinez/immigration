@@ -1,45 +1,63 @@
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
+function main() {
+	console.log(questions);
 
-	function showQuestions(questions, quizContainer){
-		// code will go here
-	}
 
-	function showResults(questions, quizContainer, resultsContainer){
-		// code will go here
-	}
+	function showQuestion(question) {
 
-	// show the questions
-	showQuestions(questions, quizContainer);
 
-	// when user clicks submit, show results
-	submitButton.onclick = function(){
-		showResults(questions, quizContainer, resultsContainer);
-	}
+			$('.content').html(
+					`
+					<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h6 class="card-subtitle mb-2 text-muted">${question.question}</h6>
+						<p class="card-text"></p>
+							<form>
+									<div class="form-check">
+											<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="${question.answers[0]}" checked>
+											<label class="form-check-label" for="exampleRadios1">
+													${question.answers[0]}
+											</label>
+									</div>
+									<div class="form-check">
+											<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="${question.answers[1]}">
+											<label class="form-check-label" for="exampleRadios2">
+													${question.answers[1]}
+											</label>
+									</div>
+									<input type="submit" value="Submit">
+							</form>
+						</div>
+				</div>
+					`
+			)
+
+
+			$("form").submit(function (event) {
+					event.preventDefault();
+					console.log(question);
+					let userAnswer = $("input:checked").val();
+				 console.log(userAnswer);
+					if (question.correctAnswer == userAnswer) {
+							alert("That is true!");
+
+					} else {
+							alert("This is wrong");
+
+					}
+					counter++;
+					if (counter < questions.length) {
+							showQuestion(questions[counter]);
+					}
+			})
+	};
+
+	showQuestion(questions[0]);
+
+
+
+
+
+
 }
-var myQuestions = [
-	{
-		question: "20% of immigrants are reported to be White.",
-		answers: {
-			a: 'True',
-			b: 'False'
-		},
-		correctAnswer: 'b'
-	},
-	{
-		question: "What is 30/3?",
-		answers: {
-			a: '3',
-			b: '5',
-		},
-		correctAnswer: 'c'
-  }
-  ,
-	{
-		question: "What is 30/3?",
-		answers: {
-			a: '3',
-			b: '5',
-		},
-		correctAnswer: 'c'
-	}
-];
+
+$(main)
