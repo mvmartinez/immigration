@@ -1,3 +1,6 @@
+let counter = 0;
+let score = 0;
+
 function main() {
 	console.log(questions);
 
@@ -39,10 +42,11 @@ function main() {
 				 console.log(userAnswer);
 					if (question.correctAnswer == userAnswer) {
 							alert("That is true!");
+							alert(question.info);
 
 					} else {
 							alert("This is wrong");
-
+							alert(question.info);
 					}
 					counter++;
 					if (counter < questions.length) {
