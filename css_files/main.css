@@ -14,19 +14,19 @@ body {
       width: 100%;
     }
 
-    li {
+    ul.nav-bar li {
       float: left;
     }
 
-    li a {
+    ul.nav-bar li a {
       display: block;
       color:white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 1rem .75rem;
       text-decoration: none;
     }
 
-    li a:hover:not(.active) {
+    ul.nav-bar li a:hover:not(.active) {
       background-color: #111;
     }
 
