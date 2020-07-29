@@ -27,7 +27,7 @@
 	let six = {
 		question: "President Obama deported more immigrants than any other president to date",
 		answers: ["True", "False"],
-		correctAnswer: "True",
+		correctAnswer: "False",
   };
 	let seven = {
 		question: "More immigrants fall below the official poverty threshold than US citizens.",
