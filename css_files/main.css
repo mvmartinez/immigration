@@ -37,7 +37,7 @@ body {
     }
 
     ul.nav-bar li a:hover:not(.active) {
-      background-color: #111;
+      background-color: #3a3a3a;
     }
 
     ul.nav-bar {
