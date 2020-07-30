@@ -32,7 +32,7 @@
 	let six = {
 		question: "President Obama deported more immigrants than any other president to date",
 		answers: ["True", "False"],
-		correctAnswer: "False",
+		correctAnswer: "True",
 		info: "Although the jury is still out for Trump, Obama deported somewhere around 2.8 &mdash; 3.4 million people during his presidency. Although there is conflicting information on the DHS and ICE websites, in their first three years of presidency, Obama deported about 400,000 more than Trump.",
   };
 	let seven = {

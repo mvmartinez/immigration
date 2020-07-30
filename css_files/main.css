@@ -1,5 +1,6 @@
 body {
-  background-color: #69a2c9;
+  background-image: url("https://media.discordapp.net/attachments/737344238823538829/738237694940938320/A1ldQBVepmL.png?width=665&height=665");
+  background-repeat: repeat;
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -9,7 +10,7 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #9ec4dd;
+      background-color: rgba(2, 2, 2);
       position: fixed;
       top: 0;
       width: 100%;
@@ -67,3 +68,29 @@ div.container a{
 h2{
     padding-top: 5rem;
   }
+
+  .container2{
+    padding: 18vh;
+  }
+
+  .button{
+    text-align: center;
+  }
+
+  .m-box{
+    border: 5px white double;
+    /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.19);*/
+    margin: 2rem;
+    height:auto;
+  }
+div.container h2.mission-state{
+font-size: 5rem;
+text-align: justify;
+word-wrap: break-word;
+font-family: 'Barlow Condensed', sans-serif;
+}
+.mission-text{
+  font-size: 1rem;
+  padding: 2rem;
+  word-wrap: break-word;
+}

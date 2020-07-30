@@ -1,0 +1,13 @@
+div.container div.card{
+  width: 50%;
+  margin: auto;
+  color: #4d4d4d;
+  position: absolute;
+  left: 25rem;
+  top: 4rem;
+  border: 10px black solid;
+  }
+
+  div.container h6.card-subtitle{
+    font-size: 1.5rem;
+  }

@@ -10,7 +10,7 @@ function main() {
 
 			$('.content').html(
 					`
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 21rem; height: 25rem">
 					<div class="card-body">
 						<h6 class="card-subtitle mb-2 text-muted">${question.question}</h6>
 						<p class="card-text"></p>
