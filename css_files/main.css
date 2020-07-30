@@ -1,6 +1,7 @@
 body {
-  background-color: #242e47;
+  background-color: #69a2c9;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
     .nav-bar {
@@ -8,13 +9,17 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #242e47;
+      background-color: #9ec4dd;
       position: fixed;
       top: 0;
       width: 100%;
+      height: 4rem
     }
 
     ul.nav-bar li {
+      float: right;
+    }
+    ul.nav-bar .logo{
       float: left;
     }
 
@@ -24,6 +29,9 @@ body {
       text-align: center;
       padding: 1rem .75rem;
       text-decoration: none;
+      line-height:2rem;
+      padding-bottom: 2rem;
+
     }
 
     ul.nav-bar li a:hover:not(.active) {
@@ -42,7 +50,20 @@ body {
     h2 {
       text-align: center;
     }
-    div {
+    .msn {
       text-align: center;
-      line-height: 1.8;
     }
+.logo{
+  font-family: 'Recursive', sans-serif;
+  font-size: 2rem;
+}
+div.container h1, div.container h2, div.container h3, div.container h4{
+  font-family: 'Heebo', sans-serif;
+}
+div.container a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    padding-top: 5rem;
+  }
