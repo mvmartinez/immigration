@@ -70,7 +70,7 @@ h2{
   }
 
   .container2{
-    padding: 18vh;
+    padding-top: 5rem;
   }
 
   .button{
@@ -82,6 +82,7 @@ h2{
     /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.19);*/
     margin: 2rem;
     height:auto;
+
   }
 div.container h2.mission-state{
 font-size: 5rem;
@@ -94,3 +95,14 @@ font-family: 'Barlow Condensed', sans-serif;
   padding: 2rem;
   word-wrap: break-word;
 }
+
+p.button a.btn{
+  background-color: rgba(17, 17, 17, 0.562);
+  border: transparent 3px solid;
+  box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.466);
+}
+
+/*p.button a.btn:focus{
+  background-color: rgba(17, 17, 17, 0.562);
+
+}*/
