@@ -41,11 +41,11 @@ function main() {
 					let userAnswer = $("input:checked").val();
 				 console.log(userAnswer);
 					if (question.correctAnswer == userAnswer) {
-							alert("That is true!");
+							alert("Correct!");
 							alert(question.info);
 
 					} else {
-							alert("This is wrong");
+							alert("Incorrect.");
 							alert(question.info);
 					}
 					counter++;

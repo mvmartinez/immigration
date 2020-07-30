@@ -1,6 +1,7 @@
 body {
-  background-image: url("https://media.discordapp.net/attachments/737344238823538829/738237694940938320/A1ldQBVepmL.png?width=665&height=665");
+  background-image: url("https://lh3.googleusercontent.com/QIyHPiQCAIRpYGz5gOR4C13_QiMEAmd02Io53FXUHg-UVHDd84_asM_3aKIS7pKCQ7H9fvt6SSm8CsUWdbUMdqAxBIPAebCECEj9bvsYXVbcry3iUo2rC3y7VkUOnX70pGILRDECtXrOyPPahjX9zebUtAUjDg4OUUGv-2MJwIc5uJzZDn8pbLAvS3JKNbjZ5phaRuLkzt1VTgtoT00oMM4tLu95gUYZl7_9hSecJjxARrrJKQHxNdJ7lJqei7H2vPRTRB3n_153mX8cstZ9KvXz55I-yTTQelTDUQxj2THip4JxuCXcMC8RdNsOwMOpcdODeGcFfPth2kv6ezJtJkF5dP81fhLMRTDjE726p7tPzjeklMP6Jqfh-fCP_Re0diRQx6QXU3Gi6iSQiAuKKzDgHA5QHGfp64IN8mRIkbxhwZn_c-T7SFmdHmqf0PeSR3xU-O5_JxIMwGwI0GVNw6ODe6CUo1jzKlThr1mYM_IeEGgWoLQ9ncP1iPAx67RruXSaFnC4oM329tB6U0pNk9Qfm-vBcDCUiBKGPPkh00APhy_hVWXVRbV1OZ4vZahb3b-nYLso2pM-HvRiocq1RmTgWEi_Kst2Ea6QKDbUDaeTAKK-5OJwq2oX1f8sE54jBImFrZtiMZNNM4NyWdDQCXimo6l6MWxxdzvsKDdfwfXrG6Nuo5tgPU02TjyDTQ=w1271-h794-no?authuser=0");
   background-repeat: repeat;
+  /* background-size: cover; */
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -10,7 +11,7 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: rgba(2, 2, 2, 0.315);
+      background-color: rgba(2, 2, 2, 0.205);
       position: fixed;
       top: 0;
       width: 100%;
@@ -70,7 +71,7 @@ h2{
   }
 
   .container2{
-    padding-top: 5rem;
+    padding-top: 6.5rem;
   }
 
   .button{
@@ -80,9 +81,10 @@ h2{
   .m-box{
     border: 5px white double;
     /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.19);*/
-    margin: 1rem;
     height:auto;
     position: relative;
+    margin: 0 1rem;
+    left: 4rem;
 
   }
 div.container h2.mission-state{
@@ -93,21 +95,18 @@ text-align: left;
 padding-top: 3rem;
 padding-left: 4rem;
 padding-bottom: 3rem;
+text-transform: uppercase;
+text-shadow: 3px 3px  rgba(116, 116, 116, 0.986);
 }
 .mission-text{
   font-size: 1rem;
   padding: 2rem;
   word-wrap: break-word;
+  text-shadow: 3px 3px 6px black;
 }
 
 p.button a.btn{
-  background-color: rgba(17, 17, 17, 0.562);
+  background-color: rgba(19, 19, 19, 0.562);
   border: transparent 3px solid;
-  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.466); */
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.541);
+  box-shadow: -1px -1px 5px 5px rgba(156, 156, 156, 0.877);
 }
-
-/*p.button a.btn:focus{
-  background-color: rgba(17, 17, 17, 0.562);
-
-}*/

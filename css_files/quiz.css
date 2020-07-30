@@ -6,6 +6,7 @@ div.container div.card{
   left: 25rem;
   top: 4rem;
   border: 10px black solid;
+  text-align: center;
   }
 
   div.container h6.card-subtitle{
