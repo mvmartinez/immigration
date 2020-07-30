@@ -4,14 +4,19 @@ div.container div.card{
   color: #4d4d4d;
   position: absolute;
   left: 25rem;
-  top: 4rem;
+  top: 5rem;
   border: 10px black solid;
+  box-shadow: -1px -1px 5px 5px rgba(192, 192, 192, 0.877);
   text-align: center;
   }
 
   div.container h6.card-subtitle{
     font-size: 1.5rem;
+    margin-top: 3rem;
   }
 input[type=submit]{
-  background-color: aqua;
+  background-color: rgba(255, 255, 255, 0.562);
+  border: transparent 3px solid;
+  box-shadow: -1px -1px 5px 5px rgba(156, 156, 156, 0.877);
+  margin-top: 2rem;
 }

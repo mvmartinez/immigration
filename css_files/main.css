@@ -109,4 +109,5 @@ p.button a.btn{
   background-color: rgba(19, 19, 19, 0.562);
   border: transparent 3px solid;
   box-shadow: -1px -1px 5px 5px rgba(156, 156, 156, 0.877);
+  color: white;
 }

@@ -1,6 +1,5 @@
 h1{
   text-align: center;
-  padding-top: 5rem;
   }
 
 div.container article{
@@ -17,5 +16,12 @@ div.container a:hover{
 .top{
   margin: 0 5rem;
   word-break: break-word;
+  text-align: center;
+}
+div.navigation a{
+  padding: 2rem .5rem;
+  position: relative;
+  left: 5rem;
+  top: 3rem;
   text-align: center;
 }

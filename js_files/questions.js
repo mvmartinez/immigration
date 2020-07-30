@@ -64,5 +64,12 @@
 		answers: ["True", "False"],
 		correctAnswer: "False",
 		info: "To become a citizen, immigrants must first become a permanent resident (AKA green card holder) which is already very hard to get and can take a lot of time. After living in the US for five consecutive years, a green card holder may then apply for naturalization, which is the process of becoming a citizen. They must be 18 or older, able to read, write, and speak basic English, understand the US constitution, have knowledge of the US history and government, and take the oath of allegiance to the US. The naturalizatioin fee is $725, and the process can last 6-14 months. They must then complete an interview and test. The overall process is very very long and costly.",
-  };
-let questions = [one, two, three, four, five, six, seven, eight, nine, ten, eleven];
+	};
+	let twelve = {
+		question: 'Thank you for taking the quiz! Check out our "Additonal Resources" page for more info and ways to support immigrants.',
+		answers: ["Yes", "Yes"],
+		correctAnswer: ["Yes"],
+		info: "Please contact us if you have any further questions!",
+
+	};
+let questions = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve];
