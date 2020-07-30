@@ -12,3 +12,6 @@ div.container div.card{
   div.container h6.card-subtitle{
     font-size: 1.5rem;
   }
+input[type=submit]{
+  background-color: aqua;
+}

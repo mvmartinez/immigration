@@ -3,6 +3,19 @@ h1{
   padding-top: 5rem;
   }
 
-article{
-  margin: 1rem;
+div.container article{
+  margin: 7rem 0;
+}
+
+div.container a{
+ color: #00a2ca;
+}
+div.container a:hover{
+  color: #03647c;
+}
+
+.top{
+  margin: 0 5rem;
+  word-break: break-word;
+  text-align: center;
 }
