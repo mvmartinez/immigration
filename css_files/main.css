@@ -10,7 +10,7 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: rgba(2, 2, 2);
+      background-color: rgba(2, 2, 2, 0.315);
       position: fixed;
       top: 0;
       width: 100%;
@@ -80,15 +80,19 @@ h2{
   .m-box{
     border: 5px white double;
     /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.19);*/
-    margin: 2rem;
+    margin: 1rem;
     height:auto;
+    position: relative;
 
   }
 div.container h2.mission-state{
-font-size: 5rem;
-text-align: justify;
+font-size: 6rem;
 word-wrap: break-word;
 font-family: 'Barlow Condensed', sans-serif;
+text-align: left;
+padding-top: 3rem;
+padding-left: 4rem;
+padding-bottom: 3rem;
 }
 .mission-text{
   font-size: 1rem;
@@ -99,7 +103,8 @@ font-family: 'Barlow Condensed', sans-serif;
 p.button a.btn{
   background-color: rgba(17, 17, 17, 0.562);
   border: transparent 3px solid;
-  box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.466);
+  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.466); */
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.281), 0 6px 20px 0 rgba(255, 255, 255, 0.541);
 }
 
 /*p.button a.btn:focus{
